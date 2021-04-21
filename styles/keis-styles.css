@@ -271,7 +271,7 @@
 }
 
 @media screen and (min-width:1601px) {
-    .down {
+    .images .down {
         right: 13% !important;
     }
 }
