@@ -1,0 +1,120 @@
+.name {
+    width: 500px;
+}
+
+.poltavacom {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-shadow: 0 5px 6px rgba(0, 0, 0, 0.15);
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+.down:hover .poltavacom {
+    color: #ff8800;
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+.first {
+    height: 1050px !important;
+    background-image: url(../images/poltavamain.png) !important;
+}
+
+@media screen and (max-width:1600px) {
+    .poltavacom {
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .second .descrip {
+        margin-left: 13.5% !important;
+    }
+    .third .descrip {
+        margin-left: unset;
+        margin-right: 3%;
+    }
+    .third img {
+        margin-right: 3%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .about {
+        max-width: 500px;
+    }
+    .geometry {
+        display: none !important;
+    }
+    .dev {
+        font-size: 20px;
+    }
+    .name {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .name {
+        width: 400px;
+        font-size: 40px !important;
+        left: 3% !important;
+        text-align: center !important;
+    }
+    .about {
+        left: 3% !important;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .name {
+        width: 300px;
+        font-size: 30px !important;
+        text-align: center !important;
+    }
+    .fifth img {
+        width: 100%;
+    }
+    .name,
+    .dev {
+        left: 10% !important;
+    }
+    .about {
+        left: 3%;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .name {
+        font-size: 25px !important;
+        left: 10% !important;
+        width: 250px;
+    }
+    .dev {
+        font-size: 16px;
+        left: 10% !important;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .name {
+        font-size: 20px;
+    }
+}
