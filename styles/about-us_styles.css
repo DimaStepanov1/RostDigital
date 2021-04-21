@@ -1085,6 +1085,7 @@
         font-size: 50px;
         width: 300px;
         text-align: center;
+        margin-top: 0 !important;
     }
     .number-black-new span,
     .number-black-new3 span {
