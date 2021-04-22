@@ -2197,7 +2197,7 @@ a {
 
 .burger-menu_nav .orange-circle {
     z-index: 2000;
-    position: fixed;
+    position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2211,7 +2211,7 @@ a {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    top: 30%;
+    top: 25%;
     margin-left: 200px;
     width: 257px;
     height: 257px;
@@ -2261,13 +2261,13 @@ a {
 }
 
 .burger-menu_nav .phone {
-    top: 70%;
+    top: 60%;
     margin-left: 130px;
 }
 
 .burger-menu_nav .email {
     left: 0;
-    top: 85%;
+    top: 75%;
     margin-left: 225px;
 }
 
