@@ -379,6 +379,9 @@
 }
 
 @media screen and (max-width: 1281px) {
+    .slide{
+        pointer-events: all;
+    }
     .burger-menu_link {
         margin-left: 0;
         display: -webkit-box;
