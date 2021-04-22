@@ -88,6 +88,20 @@ new Skroll()
         triggerTop: 1,
         delay: 3000
     })
+.add(".on-front", {
+        animation: "slideInLeft",
+        duration: 1500,
+        triggerBottom: 1,
+        triggerTop: 1,
+        delay: 3000
+    })
+    .add(".on-back", {
+        animation: "slideInRight",
+        duration: 1500,
+        triggerBottom: 1,
+        triggerTop: 1,
+        delay: 3000
+    })
     .addAnimation("newAnimation", {
         start: function(el) {
             $(el).css({
