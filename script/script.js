@@ -92,13 +92,13 @@ new Skroll()
         animation: "slideInLeft",
         duration: 1500,
         
-        delay: 3000
+        delay: 1000
     })
     .add(".on-back", {
         animation: "slideInRight",
         duration: 1500,
         
-        delay: 3000
+        delay: 1000
     })
     .addAnimation("newAnimation", {
         start: function(el) {
