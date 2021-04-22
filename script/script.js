@@ -19,10 +19,10 @@ const swiper = new Swiper('.swiper-container', {
     freeMode: true,
     speed: 800,
     rtl: true,
-    autoplay: {
-        delay: 500,
-        disableOnInteraction: false,
-    },
+//     autoplay: {
+//         delay: 500,
+//         disableOnInteraction: false,
+//     },
     slidesPerView: 1,
     spaceBetween: 10,
     breakpoints: {
