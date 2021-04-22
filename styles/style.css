@@ -1107,6 +1107,7 @@ li span {
     flex-direction: column;
     height: 555px;
     pointer-events: none;
+    overflow: hidden;
 }
 
 .swiper-container {
