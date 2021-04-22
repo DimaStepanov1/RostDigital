@@ -191,6 +191,9 @@
     .burger-menu_link {
         margin-left: 65%;
     }
+    .burger-menu_nav .email {
+        margin-left: 205px;
+    }
 }
 
 @media screen and (max-width: 1400px) {
